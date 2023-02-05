@@ -1,0 +1,28 @@
+<div> 
+    <h1 id="logoNotes" *ngIf="notes"><strong>Notes</strong></h1>
+    <button  id = "newUser" *ngIf="!visibilita" (click)="startRegister()"><strong>Registrati</strong></button> 
+    <button  id= "loginCheck" *ngIf="!visibilita" (click)="logincheck()"><strong>Accedi</strong></button>
+</div>
+
+<div *ngIf="registrati" class="box">
+   <input  type="hidden" value= {{idPost}} #id>
+   <h3 id = "usernameTitle"><strong><a>Username</a></strong></h3>
+    <input class="username" #username>
+    <h3 id = "emailTitle"><strong><a>Email</a></strong></h3>
+    <input class="email" #email>
+    <h3 id = "passwordTitle"><strong><a>Password</a></strong></h3>
+    <input type="password" id="password" #password>
+    <button class="buttonRegister" (click)="Register(id.value,username.value,email.value,password.value)"><strong>Registrati</strong></button>
+</div>
+
+
+
+<div  *ngIf="accedi" class="box">
+    <input  type="hidden" value= {{idPost}} #id>
+    <h3 id = "usernameTitle"><strong><a>Username</a></strong></h3>
+    <input class="username" #username>
+    <h3 id = "passwordTitle"><strong><a>Password</a></strong></h3>
+    <input type="password" id="password" #password>
+    <h3 id="error" *ngIf="viewAllNotes == true"><strong>{{error}}</strong></h3>
+    <button class="buttonLogin" (click)="getLogin(username.value,password.value)"><strong>Accedi</strong></button>
+</div>

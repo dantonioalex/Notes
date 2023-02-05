@@ -1,0 +1,260 @@
+.notesAdd{
+  margin-top: 190px;
+  margin-left: 600px;
+  position: absolute;
+  border-radius: 4px;
+  height: 300px;
+  width: 200px;
+  background-color: black;
+}
+
+#buttonLogin{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif; 
+  border-color: transparent;
+}
+
+#addNotes{
+  width: 150px;
+  position: fixed;
+  margin-left: 550px;
+  margin-bottom: 190px;
+  border-color: transparent;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+#title{
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-top: 12px;
+  margin-left: 40px;
+  color: white;
+}
+
+.titleInput{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#descrizioneNota{
+  font-family: Arial, Helvetica, sans-serif; 
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+.descrizioneInput{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+.allNotes0{
+  background-image: url("../../assets/foto/Notes.png");
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+}
+.allNotes1{
+  background-image: url("../../assets/foto/Notes.png");
+  height: 300px;
+  width: 300px;
+  margin-left: 600px;
+  border-radius: 4px;
+}
+  
+  
+  
+#editBox{
+  background-image: url("../../assets/foto/Notes.png");
+  height: 300px;
+  width: 300px;
+  margin-left: 600px;
+  border-radius: 4px;
+}
+
+#editTitleNotes{
+  margin-top: 150px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+  
+.titleWrite{
+  margin-top: 50px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  position: absolute;
+}
+  
+.titleNotes{
+  margin-top: 90px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+  
+  
+.descrizioneWrite{
+  margin-top: 120px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+  
+.descrizioneNotes{
+  margin-top: 150px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+  
+#error{
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+  
+#editButton{
+  margin-top: 180px;
+  margin-left: 160px;
+  border-color: transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  position: absolute;
+  }
+  #deleteButton{
+  margin-left: 80px;
+  margin-top: 180px;
+  border-color: transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.buttonLogin{
+  margin-top: 60px;
+  margin-left: 80px;
+  border-color: transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+  
+#editBox{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border-radius: 4px;
+}
+  
+  
+#editTitleWrite{
+  margin-top: 84px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+  
+#editTitleNotes{
+  margin-top:5px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.deleteAllNotes{
+  margin-top:5px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+}
+  
+
+#editTitleNotes:focus{
+  outline: none !important;
+  border-width: 0px !important;
+  border: none !important;  
+}
+  
+#editDescrizioneNota{
+  margin-top: 60px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+  
+#editDescrizione{
+  margin-top:5px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;  
+}
+
+#editDescrizione:focus{
+  border-style: none;
+}
+  
+
+#editDescrizione:focus {
+  outline: none !important;
+  border-width: 0px !important;
+  border: none !important;
+}
+.editButton{
+  border-color: transparent;
+  margin-top: 25px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.editMode{
+  border-color: transparent;
+  margin-top: 25px;
+  margin-left: 80px;
+  position: absolute;
+}
+  
+.logOut{
+  width: 150px;
+  position: absolute;
+  margin-left: 800px;
+  border-color: transparent;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.modify{
+  /*  width: 15px; */
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 5px;
+  border-radius: 4px;
+  border-color: transparent;
+  border-color: transparent;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.back{
+  /*  width: 5px; */
+  position: absolute;
+   margin-top: 25px;
+  margin-left: 160px;
+  border-radius: 4px;
+  border-color: transparent;
+  border-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;  
+}

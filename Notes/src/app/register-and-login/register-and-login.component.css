@@ -1,0 +1,225 @@
+
+#logoNotes{
+  font-family:Arial, Helvetica, sans-serif;
+  position: fixed;
+  color: black;
+}
+
+.box{
+  width: 250px;
+  height: 400px;
+  background-color: black;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+#loginCheck{
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 210px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+#newUser{
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 120px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.username{
+  border-color: transparent;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.email{
+  border-color: transparent;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#password{
+  border-color: transparent;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.buttonRegister{
+  border-color: transparent;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 63px;
+}
+
+#usernameTitle{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+
+#emailTitle{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+
+#passwordTitle{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+
+.allNotes0{
+  background-image: url("../../assets/foto/Notes.png");
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+}
+.allNotes1{
+  background-image: url("../../assets/foto/Notes.png");
+  height: 300px;
+  width: 300px;
+  margin-left: 600px;
+  border-radius: 4px;
+}
+
+
+
+#editBox{
+  background-image: url("../../assets/foto/Notes.png");
+  height: 300px;
+  width: 300px;
+  margin-left: 600px;
+  border-radius: 4px;
+}
+#editTitleNotes{
+  margin-top: 150px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+
+.titleWrite{
+  margin-top: 50px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  position: absolute;
+}
+
+.titleNotes{
+  margin-top: 90px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+
+
+.descrizioneWrite{
+  margin-top: 120px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+
+.descrizioneNotes{
+  margin-top: 150px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+}
+
+#error{
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#editButton{
+  margin-top: 180px;
+  margin-left: 160px;
+  border-color: transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  position: absolute;
+}
+#deleteButton{
+  margin-left: 80px;
+  margin-top: 180px;
+  border-color: transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  position: absolute;
+}
+.buttonLogin{
+  margin-top: 60px;
+  margin-left: 80px;
+  border-color: transparent;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+#editBox{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border-radius: 4px;
+}
+
+#editTitleWrite{
+  margin-top: 84px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#editTitleNotes{
+  margin-top:5px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+#editTitleNotes:hover{
+  border-color: transparentme ;
+}
+
+#editDescrizioneNota{
+  margin-top: 60px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#editDescrizione{
+  margin-top:5px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent; 
+}
+
+.editButton{
+  border-color: transparent;
+  margin-top: 25px;
+  margin-left: 120px;
+  position: absolute;
+}

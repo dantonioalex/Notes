@@ -1,0 +1,10 @@
+Notes/.angular/
+Notes/.vscode/
+Notes/.browserslistrc
+Notes/.editorconfig
+Notes/node_modules
+SaveNotes/.mvn/
+SaveNotes/.settings
+SaveNotes/.classpath
+SaveNotes/.project
+SaveNotes/.factorypath

@@ -1,0 +1,37 @@
+<button *ngIf="addClick == true" id="addNotes" (click)="clickAdd()"><strong>Aggiungere nota nota</strong> </button>
+<button class ="logOut" (click)="logout()"> Logout</button>
+
+<div *ngIf="notesAdd ==true" class="notesAdd">
+    <input type="hidden" value={{idNotes}} #id>
+    <h3 id="title">Titolo nota</h3>
+    <input class="titleInput" #title>
+    <h3 id="descrizioneNota">Descrizione nota</h3>
+    <input class="descrizioneInput" #descrizione>
+    <br>
+    <button  class="modify" (click)="addNotes(id.value,title.value,descrizione.value)"><strong>Aggiungi nota </strong> </button> <button class="back" (click)="back()"> <strong>Back</strong></button>
+</div>
+
+
+
+<div *ngIf="viewAllNotes == true">
+    <button *ngIf="false"  (click)="deleteAllNotes(this.usermame)"> Delete All</button>
+    <div  *ngFor="let notes of allNotes;index as i" class="allNotes{{i%2}}" cdkDrag>
+        <input type="hidden" value={{notes.id}} #id>
+        <h3 class = "titleWrite">Titolo nota</h3>
+        <h3 class = titleNotes>{{notes.title}}</h3>
+        <h3 class="descrizioneWrite">Descrizione nota</h3>
+        <h3 class= "descrizioneNotes">{{notes.descrizione}}</h3>
+        <input type="hidden" value={{notes.username}} #username>
+        <button id="deleteButton" (click)="deleteNotes(id.value,notes.title,notes.descrizione,username.value)">Delete</button><button id="editButton" (click)="editMode(id.value,notes.title,notes.descrizione,username.value)" id="editButton">Edit</button>
+    </div> 
+</div>
+
+<div  id="editBox" *ngIf="edit ==true">
+    <input type="hidden" value= {{id}} #idd>
+    <h3 id="editTitleWrite">Titolo nota</h3>
+    <input  id = "editTitleNotes" value={{titleNotes}} #t>
+    <h3 id="editDescrizioneNota"> Descrizione nota</h3>
+    <input id="editDescrizione" value={{descrizione}} #d>
+    <input type="hidden" value= {{this.usermame}} #u>
+    <button  class="editMode" (click)="updateNotes(idd.value,t.value,d.value,u.value)">Modifica</button> <button  *ngIf="edit ==true" class="back" (click)="backEdit()">back</button>
+</div>
